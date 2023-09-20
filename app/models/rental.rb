@@ -9,4 +9,8 @@ class Rental
   def charge
     movie.charge(days_rented)
   end
+
+  def frequent_renter_points
+    movie.frequent_renter_points(days_rented)
+  end
 end
