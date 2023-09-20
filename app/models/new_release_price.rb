@@ -1,0 +1,3 @@
+class NewReleasePrice
+
+end
